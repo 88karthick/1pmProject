@@ -11,7 +11,7 @@ public class PojoClass2 extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//a[text()='forgotten password?']")
+	@FindBy(xpath = "//a[text()='Forgotten password?']")
 	private WebElement btnFrgtPass;
 	
 	public WebElement getBtnFrgtPass() {
